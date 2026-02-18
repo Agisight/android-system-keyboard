@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+
+    <include latin:keyboardLayout="@xml/key_styles_common" />
+
+    <!-- Row 1: й ө у к е н г ш ә з һ ү -->
+    <Row latin:keyWidth="8.333%p">
+
+        <Key latin:keySpec="й" latin:keyHintLabel="1" latin:additionalMoreKeys="1" />
+
+        <Key latin:keySpec="ө" latin:keyHintLabel="2" latin:additionalMoreKeys="2" />
+
+        <Key latin:keySpec="у" latin:keyHintLabel="3" latin:additionalMoreKeys="3" />
+
+        <Key latin:keySpec="к" latin:keyHintLabel="4" latin:additionalMoreKeys="4" />
+
+        <!-- е → ё -->
+        <Key latin:keySpec="е"
+             latin:keyHintLabel="5 ё"
+             latin:additionalMoreKeys="5"
+             latin:moreKeys="ё" />
+
+        <Key latin:keySpec="н" latin:keyHintLabel="6" latin:additionalMoreKeys="6" />
+
+        <Key latin:keySpec="г" latin:keyHintLabel="7" latin:additionalMoreKeys="7" />
+
+        <Key latin:keySpec="ш" latin:keyHintLabel="8" latin:additionalMoreKeys="8" />
+
+        <Key latin:keySpec="ә" latin:keyHintLabel="9" latin:additionalMoreKeys="9" />
+
+        <Key latin:keySpec="з" latin:keyHintLabel="0" latin:additionalMoreKeys="0" />
+
+        <Key latin:keySpec="һ" />
+        <Key latin:keySpec="ү" />
+
+    </Row>
+
+    <!-- Row 2: ф ы в а п р о л д ң х ц -->
+    <Row latin:keyWidth="8.333%p">
+
+        <Key latin:keySpec="ф" />
+        <Key latin:keySpec="ы" />
+        <Key latin:keySpec="в" />
+        <Key latin:keySpec="а" />
+        <Key latin:keySpec="п" />
+        <Key latin:keySpec="р" />
+        <Key latin:keySpec="о" />
+        <Key latin:keySpec="л" />
+
+        <!-- д → - -->
+        <Key latin:keySpec="д"
+             latin:keyHintLabel="-"
+             latin:moreKeys="-" />
+
+        <Key latin:keySpec="ң" />
+        <Key latin:keySpec="х" />
+        <Key latin:keySpec="ц" />
+
+    </Row>
+
+    <!-- Row 3: Shift я ч с м и т җ б ю ь Delete -->
+    <Row latin:keyWidth="8.2%p">
+
+        <Key latin:keyStyle="shiftKeyStyle"
+             latin:keyWidth="10.8%p" />
+
+        <Key latin:keySpec="я" />
+        <Key latin:keySpec="ч" />
+        <Key latin:keySpec="с" />
+        <Key latin:keySpec="м" />
+        <Key latin:keySpec="и" />
+
+        <!-- т → – -->
+        <Key latin:keySpec="т"
+             latin:keyHintLabel="–"
+             latin:moreKeys="–" />
+
+        <Key latin:keySpec="җ" />
+        <Key latin:keySpec="б" />
+        <Key latin:keySpec="ю" />
+
+        <!-- ь → ъ -->
+        <Key latin:keySpec="ь"
+             latin:keyHintLabel="ъ"
+             latin:moreKeys="ъ" />
+
+        <Key latin:keyStyle="deleteKeyStyle"
+             latin:keyWidth="fillRight" />
+
+    </Row>
+
+    <include latin:keyboardLayout="@xml/row_qwerty4" />
+
+</Keyboard>
