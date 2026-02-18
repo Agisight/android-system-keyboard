@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeyboardLayoutSet xmlns:latin="http://schemas.android.com/apk/res/com.android.inputmethod.latin">
+    <Element latin:elementName="alphabet" latin:elementKeyboard="@xml/kbd_tatar" />
+    <Element latin:elementName="symbols" latin:elementKeyboard="@xml/kbd_symbols" />
+    <Element latin:elementName="symbolsShifted" latin:elementKeyboard="@xml/kbd_symbols_shift" />
+</KeyboardLayoutSet>
