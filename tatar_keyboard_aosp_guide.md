@@ -145,6 +145,26 @@ m LatinIME
 ls out/target/product/*/system/product/app/LatinIME/LatinIME.apk
 ```
 
+## Step 6.5 — Copy APK to `parent folder`
+
+For your convenience, you can copy apk with `LatinIME.apk` name:
+
+```bash
+cp out/target/product/generic_arm64/system/product/app/LatinIME/LatinIME.apk ./LatinIME.apk
+```
+
+### Optional – Copy with different names...
+
+Depending on the processor architectures
+* arm64:
+    ```bash
+    cp out/target/product/generic_arm64/system/product/app/LatinIME/LatinIME.apk ./LatinIME-arm64.apk
+    ```
+* x86:
+    ```bash
+    cp out/target/product/generic_x86_64/system/product/app/LatinIME/LatinIME.apk ./LatinIME-x86.apk
+    ```
+
 ---
 
 ## Step 7 — Install
